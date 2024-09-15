@@ -1,0 +1,14 @@
+13 NLP Interview Questions 2024 :-
+
+A Collection of technical interview questions for machine learning and natural language processing positions.
+
+The answer to all these question were generated using ChatGPT!
+
+1. What is the difference between stemming and lemmatization?
+
+Stemming and lemmatization are both techniques used in natural language processing to reduce words to their base form. The main difference between the two is that stemming is a crude heuristic process that chops off the ends of words, while lemmatization is a more sophisticated process that uses vocabulary and morphological analysis to determine the base form of a word. Lemmatization is more accurate but also more computationally expensive.
+
+Example: The word "better"
+
+Stemming: The stem of the word "better" is likely to be "better" (e.g. by using Porter stemmer)
+Lemmatization: The base form of the word "better" is "good" (e.g. by using WordNetLemmatizer with POS tagger)
