@@ -50,54 +50,7 @@ The inverse document frequency (IDF) of a word is the logarithm of the total num
 8. What is perplexity used for? [src]
 Perplexity is a statistical measure used to evaluate the quality of a probability model, particularly language models. It is used to quantify the uncertainty of a model when predicting the next word in a sequence of words. The lower the perplexity, the better the model is at predicting the sequence of words.
 
-Sure, here's the formula for perplexity in LaTeX format:
-Perplexity = 
-2
-H
-(
-D
-)
-
-H
-(
-D
-)
-=
-−
-∑
-i
-=
-1
-N
-P
-(
-w
-i
-)
-l
-o
-g
-2
-P
-(
-w
-i
-)
- ref
-
-w
-i
- = the i-th word in the sequence
-
-N
- = the number of words in the sequence
-
-P
-(
-w
-i
-)
- = the probability of the i-th word according to the model
+![image](https://github.com/user-attachments/assets/f5fb0446-af82-4df8-a3d8-7a33025370c9)
 
 
 9. What is Bag-of-Worrds model? [src]
