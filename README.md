@@ -51,7 +51,6 @@ The inverse document frequency (IDF) of a word is the logarithm of the total num
 Perplexity is a statistical measure used to evaluate the quality of a probability model, particularly language models. It is used to quantify the uncertainty of a model when predicting the next word in a sequence of words. The lower the perplexity, the better the model is at predicting the sequence of words.
 
 Sure, here's the formula for perplexity in LaTeX format:
-
 Perplexity = 
 2
 H
@@ -99,6 +98,7 @@ w
 i
 )
  = the probability of the i-th word according to the model
+
 
 9. What is Bag-of-Worrds model? [src]
 The bag-of-words model is a representation of text data where a text is represented as a bag (multiset) of its words, disregarding grammar and word order but keeping track of the frequency of each word. It is simple to implement and computationally efficient, but it discards grammatical information and word order, which can be important for some NLP tasks.
